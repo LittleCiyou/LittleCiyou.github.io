@@ -1,0 +1,60 @@
+/* 霞鹜文楷全局字体设置 */
+@font-face {
+    font-family: 'LXGW WenKai GB';
+    src: url('/fonts/LXGWWenKaiGB-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LXGW WenKai GB';
+    src: url('/fonts/LXGWWenKaiGB-Medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 应用到正文 */
+body, .post-content, .article-entry, .layout_post #post .post-content {
+    font-family: 'LXGW WenKai GB', 'Georgia', 'Times New Roman', '宋体', serif !important;
+}
+
+/* ===== 字号调整（新加） ===== */
+
+/* 全局基础字号设为18px */
+html {
+    font-size: 18px;
+}
+
+/* 正文细节微调 */
+.post-content, .article-entry, .layout_post #post .post-content {
+    font-size: 1rem !important;      /* 继承18px */
+    line-height: 1.8 !important;      /* 行高1.8倍，阅读更舒服 */
+}
+
+/* 标题样式 */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold !important;     /* 加粗 */
+    line-height: 1.4 !important;      /* 标题行高紧凑一点 */
+}
+
+h1 {
+    font-size: 2rem !important;       /* 36px */
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+h2 {
+    font-size: 1.5rem !important;     /* 27px */
+    margin-top: 1.2rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+h3 {
+    font-size: 1.25rem !important;    /* 22.5px */
+}
+
+h4 {
+    font-size: 1.1rem !important;     /* 19.8px */
+}
