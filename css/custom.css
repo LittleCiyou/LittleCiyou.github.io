@@ -1,4 +1,4 @@
-/* 霞鹜文楷全局字体设置 */
+/* ===== 霞鹜文楷字体定义 ===== */
 @font-face {
     font-family: 'LXGW WenKai GB';
     src: url('/fonts/LXGWWenKaiGB-Regular.ttf') format('truetype');
@@ -7,54 +7,48 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'LXGW WenKai GB';
-    src: url('https://Tonyjian1216.github.io/fonts/LXGWWenKaiGB-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* 应用到正文 */
+/* ===== 全局字体应用 ===== */
 body, .post-content, .article-entry, .layout_post #post .post-content {
     font-family: 'LXGW WenKai GB', 'Georgia', 'Times New Roman', '宋体', serif !important;
 }
 
-/* ===== 字号调整（新加） ===== */
-
-/* 全局基础字号设为18px */
+/* ===== 字号与行距 ===== */
 html {
     font-size: 18px;
 }
 
-/* 正文细节微调 */
 .post-content, .article-entry, .layout_post #post .post-content {
-    font-size: 1rem !important;      /* 继承18px */
-    line-height: 1.8 !important;      /* 行高1.8倍，阅读更舒服 */
+    font-size: 18px !important;
+    line-height: 1.8 !important;
 }
 
-/* 标题样式 */
+/* ===== 标题样式 ===== */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold !important;     /* 加粗 */
-    line-height: 1.4 !important;      /* 标题行高紧凑一点 */
+    font-weight: bold !important;
+    line-height: 1.4 !important;
 }
 
 h1 {
-    font-size: 2rem !important;       /* 36px */
+    font-size: 2rem !important;
     margin-top: 1.5rem !important;
     margin-bottom: 1rem !important;
 }
 
 h2 {
-    font-size: 1.5rem !important;     /* 27px */
+    font-size: 1.5rem !important;
     margin-top: 1.2rem !important;
     margin-bottom: 0.8rem !important;
 }
 
 h3 {
-    font-size: 1.25rem !important;    /* 22.5px */
+    font-size: 1.25rem !important;
 }
 
 h4 {
-    font-size: 1.1rem !important;     /* 19.8px */
+    font-size: 1.1rem !important;
 }
+
+# /* ===== 隐藏 Follow Me 按钮 ===== */
+# card-info-btn {
+    # display: none !important;
+# }
