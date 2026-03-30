@@ -1,6 +1,6 @@
 # 🏮 辞忧的精神世界 | Ciyou's Inner World
 
-[English Version](#-welcome-to-my-inner-world) | [中文说明](#-欢迎来到我的精神游艺场)
+[English Version](#-welcome-to-my-inner-world) | [中文说明](#-欢迎来到辞忧的精神世界)
 
 ---
 
